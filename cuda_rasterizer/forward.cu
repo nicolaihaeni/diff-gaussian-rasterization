@@ -404,7 +404,8 @@ void FORWARD::render(
 		final_T,
 		n_contrib,
 		bg_color,
-		out_color);
+		out_color,
+        out_depth);
 }
 
 void FORWARD::preprocess(int P, int D, int M,

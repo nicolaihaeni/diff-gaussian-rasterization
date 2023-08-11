@@ -333,7 +333,7 @@ int CudaRasterizer::Rasterizer::forward(
 		imgState.n_contrib,
 		background,
 		out_color, 
-        out_depths), debug)
+        out_depth), debug)
 
 	return num_rendered;
 }
